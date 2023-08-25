@@ -18,7 +18,7 @@ async function convertGlb() {
     const texture1 = document
       .createTexture("myTexture")
       .setImage(textureUint8Array)
-      .setMimeType("image/png");
+      .setMimeType("image/webp");
 
     const material = document
       .createMaterial("Loaded")
